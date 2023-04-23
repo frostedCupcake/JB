@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import About from '../components/About';
+import Contact from '../components/Contact';
 import Header from '../components/Header';
 
 export default function Home() {
@@ -11,23 +12,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-primary-light">
+      <main className="">
         <Header />
         <div className="snap-y overflow-y-scroll h-[100vh]  snap-mandatory flex flex-col">
-          <section className="h-[100vh] snap-start bg-green-500 flex flex-col items-end">
+          <section className="h-[100vh]  snap-start  flex flex-col items-end">
             <About />
           </section>
-          <section className="h-[100vh] snap-start bg-red-800 flex flex-col items-end">
-            <About />
-          </section>
-          <section className="h-[100vh] snap-start bg-blue-700 flex flex-col items-end">
-            <About />
-          </section>
+          <section className="h-[100vh]  snap-start  flex flex-col items-end"></section>
+          <section className="h-[100vh] snap-start  flex flex-col items-end"></section>
           <section className="h-[100vh] snap-start flex flex-col items-end">
-            <About />
-          </section>
-          <section className="h-[100vh] snap-start flex flex-col items-end">
-            <About />
+            <Contact />
           </section>
         </div>
       </main>
