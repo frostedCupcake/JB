@@ -2,6 +2,8 @@ import Head from 'next/head';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Header from '../components/Header';
+import Projects from '../components/Projects';
+import Skills from '../components/Skills';
 
 export default function Home() {
   return (
@@ -12,15 +14,39 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="main">
         <Header />
-        <div className="snap-y overflow-y-scroll h-[100vh]  snap-mandatory flex flex-col">
-          <section className="h-[100vh]  snap-start  flex flex-col items-end">
+        <div className="snap-y overflow-y-scroll h-[100vh] snap-mandatory flex flex-col">
+          <section
+            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat "
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682246740/JB/aboutBG_ew9y7u.jpg')`,
+            }}
+          >
             <About />
           </section>
-          <section className="h-[100vh]  snap-start  flex flex-col items-end"></section>
-          <section className="h-[100vh] snap-start  flex flex-col items-end"></section>
-          <section className="h-[100vh] snap-start flex flex-col items-end">
+          <section
+            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682247708/JB/skillsBG_jopn5m.jpg')`,
+            }}
+          >
+            <Skills />
+          </section>
+          <section
+            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682248050/JB/projectsBG_qnxmhn.jpg')`,
+            }}
+          >
+            <Projects />
+          </section>
+          <section
+            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682248152/JB/contactBG_xbuv7i.jpg')`,
+            }}
+          >
             <Contact />
           </section>
         </div>
