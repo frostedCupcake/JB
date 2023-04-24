@@ -17,7 +17,7 @@ const Contact = () => {
             <div className="flex flex-row  gap-5">
               <div class="form-control w-full max-w-xs">
                 <label class="label">
-                  <span class="label-text">first name*</span>
+                  <span class="label-text text-black">first name*</span>
                 </label>
                 <input
                   type="text"
@@ -27,7 +27,7 @@ const Contact = () => {
               </div>
               <div class="form-control w-full max-w-xs">
                 <label class="label">
-                  <span class="label-text">last name*</span>
+                  <span class="label-text text-black">last name*</span>
                 </label>
                 <input
                   type="text"
@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="flex flex-row  gap-5">
               <div class="form-control w-full max-w-xs">
                 <label class="label">
-                  <span class="label-text">email*</span>
+                  <span class="label-text text-black">email*</span>
                 </label>
                 <input
                   type="text"
@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
               <div class="form-control w-full max-w-xs">
                 <label class="label">
-                  <span class="label-text">subject*</span>
+                  <span class="label-text text-black">subject*</span>
                 </label>
                 <input
                   type="text"
@@ -61,7 +61,7 @@ const Contact = () => {
 
             <div class="form-control">
               <label class="label">
-                <span class="label-text">message*</span>
+                <span class="label-text text-black">message*</span>
               </label>
               <textarea
                 class="textarea textarea-bordered bg-white"
@@ -69,7 +69,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          <button class="btn btn-outline tracking-widest text-[1.1rem] ">
+          <button class="btn btn-outline tracking-widest text-[1.1rem] text-black">
             Send.
           </button>
         </div>
