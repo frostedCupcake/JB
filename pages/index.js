@@ -2,6 +2,7 @@ import Head from 'next/head';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Header from '../components/Header';
+import HeaderMobile from '../components/HeaderMobile';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
@@ -16,7 +17,15 @@ export default function Home() {
 
       <main className="main">
         <Header />
-        <div className="md:snap-y md:overflow-y-scroll h-[100vh] snap-mandatory flex flex-col">
+        <div className="md:snap-y md:overflow-y-scroll h-[100vh] md:snap-mandatory flex flex-col">
+          <section
+            className="lg:hidden h-[100vh] md:snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat "
+            style={{
+              backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682246740/JB/aboutBG_ew9y7u.jpg')`,
+            }}
+          >
+            <HeaderMobile />
+          </section>
           <section
             className="h-[100vh] md:snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat "
             style={{
