@@ -16,9 +16,9 @@ export default function Home() {
 
       <main className="main">
         <Header />
-        <div className="snap-y overflow-y-scroll h-[100vh] snap-mandatory flex flex-col">
+        <div className="md:snap-y md:overflow-y-scroll h-[100vh] snap-mandatory flex flex-col">
           <section
-            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat "
+            className="h-[100vh] md:snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat "
             style={{
               backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682246740/JB/aboutBG_ew9y7u.jpg')`,
             }}
@@ -26,7 +26,7 @@ export default function Home() {
             <About />
           </section>
           <section
-            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
+            className="h-[100vh] md:snap-start   flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
             style={{
               backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682247708/JB/skillsBG_jopn5m.jpg')`,
             }}
@@ -34,7 +34,7 @@ export default function Home() {
             <Skills />
           </section>
           <section
-            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
+            className="h-[100vh] md:snap-start   flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
             style={{
               backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682248050/JB/projectsBG_qnxmhn.jpg')`,
             }}
@@ -42,7 +42,7 @@ export default function Home() {
             <Projects />
           </section>
           <section
-            className="h-[100vh] snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
+            className="h-[100vh] md:snap-start   flex flex-col items-end bg-cover bg-bottom bg-no-repeat"
             style={{
               backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682248152/JB/contactBG_xbuv7i.jpg')`,
             }}

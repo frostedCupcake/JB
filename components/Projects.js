@@ -10,7 +10,13 @@ const Projects = () => {
         </h1>
         <div className="text-black tracking-wider flex flex-col justify-center items-center leading-10 mx-auto">
           <div className="w-full grid grid-cols-3 grid-rows-2 gap-2 mx-auto">
-            <ProjectCard />
+            <ProjectCard
+              text={'Toonsutra UI'}
+              alt="Toonsutra logo"
+              imgUrl={
+                'https://res.cloudinary.com/dbmw0xoar/image/upload/v1682313366/JB/toonsutra-removebg-preview_l78ex2.png'
+              }
+            />
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
