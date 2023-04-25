@@ -21,7 +21,7 @@ export default function Home() {
           <section
             className="lg:hidden h-[100vh] md:snap-start  flex flex-col items-end bg-cover bg-bottom bg-no-repeat "
             style={{
-              backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682246740/JB/aboutBG_ew9y7u.jpg')`,
+              backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682440774/JB/headerBG_eu8ody.jpg')`,
             }}
           >
             <HeaderMobile />
