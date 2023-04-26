@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div
       className="hidden lg:flex flex-col justify-center fixed top-0 left-0
-     items-end  bg-white/70 shadow-2xl h-[90vh] w-[30%] p-[2rem] m-[2rem] rounded-md"
+     items-end  bg-white/70 text-black shadow-2xl h-[90vh] w-[30%] p-[2rem] m-[2rem] rounded-md"
     >
       <img
         src="https://res.cloudinary.com/dbmw0xoar/image/upload/v1682366123/JB/jb-image_xrcuch.jpg"
