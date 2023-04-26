@@ -14,12 +14,18 @@ const Projects = () => {
               text={'Toonsutra UI'}
               alt="Toonsutra logo"
               imgUrl={
-                'https://res.cloudinary.com/dbmw0xoar/image/upload/v1682313366/JB/toonsutra-removebg-preview_l78ex2.png'
+                'https://res.cloudinary.com/dbmw0xoar/image/upload/v1682313003/JB/toonsutra_ekt8pr.png'
               }
             />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            <ProjectCard
+              text={'r/IITH'}
+              alt="r/IITH logo"
+              imgUrl={
+                'https://res.cloudinary.com/dbmw0xoar/image/upload/v1682503330/JB/rIITH-logo_1_ys6eho.png'
+              }
+            />
+            <ProjectCard text={'IITH Cabshare'} />
+            <ProjectCard text={'My Collectibles'} />
             <ProjectCard />
             <ProjectCard />
           </div>
