@@ -182,7 +182,7 @@ const Message = () => {
             onClick={() => onSubmit()}
             class={`btn btn-outline ${
               isLoading ? 'loading' : ''
-            } tracking-widest text-[1.1rem] text-black`}
+            } tracking-widest text-[1.1rem] text-black disabled:text-black/50 disabled:bg-black/10`}
           >
             Send.
           </button>
