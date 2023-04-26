@@ -3,6 +3,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Header from '../components/Header';
 import HeaderMobile from '../components/HeaderMobile';
+import Message from '../components/Message';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
@@ -56,7 +57,7 @@ export default function Home() {
               backgroundImage: `url('https://res.cloudinary.com/dbmw0xoar/image/upload/v1682248152/JB/contactBG_xbuv7i.jpg')`,
             }}
           >
-            <Contact />
+            <Message />
           </section>
         </div>
       </main>
