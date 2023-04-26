@@ -173,7 +173,6 @@ const Message = () => {
           </div>
           <button
             disabled={
-              isLoading ||
               !values.fname ||
               !values.lname ||
               !values.subject ||
@@ -181,7 +180,9 @@ const Message = () => {
               !values.email
             }
             onClick={() => onSubmit()}
-            class="btn btn-outline tracking-widest text-[1.1rem] text-black"
+            class={`btn btn-outline ${
+              isLoading ? 'loading' : ''
+            } tracking-widest text-[1.1rem] text-black`}
           >
             Send.
           </button>
