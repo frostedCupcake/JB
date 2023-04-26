@@ -24,7 +24,13 @@ const Projects = () => {
                 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1682503330/JB/rIITH-logo_1_ys6eho.png'
               }
             />
-            <ProjectCard text={'IITH Cabshare'} />
+            <ProjectCard
+              text={'IITH Cabshare'}
+              alt="IITH Cabshare logo"
+              imgUrl={
+                'https://res.cloudinary.com/dbmw0xoar/image/upload/v1682510804/JB/IITHCS-logo_vnrfwo.png'
+              }
+            />
             <ProjectCard text={'My Collectibles'} />
             <ProjectCard />
             <ProjectCard />
