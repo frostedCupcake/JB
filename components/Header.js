@@ -26,7 +26,7 @@ const Header = () => {
           <BsLinkedin className="text-[2.5rem]" />
         </Link>
       </div>
-      <div className="tracking-wider">
+      <div className="tracking-wider text-justify">
         <p className="text-left leading-7 text-[1.1rem]">
           Initiating the first step is akin to unlocking the gateway to
           accomplishment, even in the face of seemingly insurmountable

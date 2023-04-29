@@ -25,7 +25,7 @@ const HeaderMobile = () => {
           <BsLinkedin className="text-[2.5rem]" />
         </Link>
       </div>
-      <div className="tracking-wider">
+      <div className="tracking-wider text-justify">
         <p className="text-left leading-6 text-[1.1rem] md:text-[1.4rem] md:leading-7">
           Initiating the first step is akin to unlocking the gateway to
           accomplishment, even in the face of seemingly insurmountable

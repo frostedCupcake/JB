@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="min-[300px]:text-[3.5rem] text-[4rem] md:text-[4rem]  xl:text-[5rem] 2xl:text-[5.5rem] my-2 lg:my-5 text-center md:text-left">
           About Me.
         </h1>
-        <div className="text-black tracking-wider flex flex-col justify-center items-center gap-5  xl:leading-10 min-[1700px]:leading-[3rem]">
+        <div className="text-black tracking-wider flex flex-col justify-center items-center gap-5  xl:leading-10 min-[1700px]:leading-[3rem] text-justify">
           <p className="min-[300px]:text-[1.1rem] text-[1.2rem] md:text-[1.4rem] lg:text-[1.4rem] min-[1700px]:text-[1.6rem]">
             I was born in India. I’m currently a sophomore student studying at
             the Indian Institute of Technology Hyderabad.

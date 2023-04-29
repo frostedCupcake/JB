@@ -7,7 +7,7 @@ const Skills = () => {
         <h1 className="min-[300px]:text-[3.5rem] text-[4rem] md:text-[4.5rem] lg:text-[4.5rem]  xl:text-[5rem] 2xl:text-[5.5rem] my-2 lg:my-5 text-center md:text-left">
           My Works.
         </h1>
-        <div className="min-[300px]:text-[1rem] text-[1.1rem] md:text-[1.2rem] lg:text-[1.2rem] 2xl:text-[1.25rem] flex flex-col gap-4 leading-7 lg:leading-8 xl:leading-10">
+        <div className="min-[300px]:text-[1rem] text-[1.1rem] md:text-[1.2rem] lg:text-[1.2rem] 2xl:text-[1.25rem] text-justify flex flex-col gap-4 leading-7 lg:leading-8 xl:leading-10">
           <p>
             Worked on IITH Cabsharing portal & r/IITH along my team, built using{' '}
             <span className="underline">Next js</span>,{' '}
