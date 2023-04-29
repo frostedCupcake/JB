@@ -7,10 +7,9 @@ const Skills = () => {
         <h1 className="min-[300px]:text-[3.5rem] text-[4rem] md:text-[4.5rem] lg:text-[4.5rem]  xl:text-[5rem] 2xl:text-[5.5rem] my-2 lg:my-5 text-center md:text-left">
           My Skills.
         </h1>
-        <div className="min-[300px]:text-[1rem] text-[1.1rem] md:text-[1.2rem] lg:text-[1.35rem]  flex flex-col gap-4 leading-7 lg:leading-8 xl:leading-10">
+        <div className="min-[300px]:text-[1rem] text-[1.1rem] md:text-[1.2rem] lg:text-[1.2rem] 2xl:text-[1.25rem] flex flex-col gap-4 leading-7 lg:leading-8 xl:leading-10">
           <p>
-            Worked on IITH Cabsharing portal & r/IITH along my team which has a
-            simple yet amazing user interface and experience built using{' '}
+            Worked on IITH Cabsharing portal & r/IITH along my team, built using{' '}
             <span className="underline">Next js</span>,{' '}
             <span className="underline">tailwind CSS</span> and{' '}
             <span className="underline">daisy UI</span> in Frontend with{' '}
@@ -19,9 +18,9 @@ const Skills = () => {
             <span className="underline">Postgresql</span> Database in backend.
           </p>
           <p>
-            Interned as full stack developer in My Collectibles - The NFT
-            marketplace that offers effortless buying, selling, and trading of
-            NFTs with multiple convenient payment methods, built using{' '}
+            Interned in My Collectibles - The NFT marketplace that offers
+            effortless buying, selling, and trading of NFTs with multiple
+            convenient payment methods, built using{' '}
             <span className="underline">Next js</span> and{' '}
             <span className="underline">Tailwind CSS</span> in Frontend with{' '}
             <span className="underline">Wagmi</span> - React Hooks for Ethereum,{' '}
@@ -34,8 +33,7 @@ const Skills = () => {
             for Toonsutra, MURL - Medical Ultrasound Research Laboratory and
             NETX - Networked Systems and Security, learnt great design skills in{' '}
             <span className="underline">figma</span>,{' '}
-            <span className="underline">manangement of time</span> and how to{' '}
-            <span className="underline">negotiate & deal with people</span>.
+            <span className="underline">manangement of time</span>.
           </p>
           <p></p>
         </div>

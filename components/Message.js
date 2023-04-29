@@ -69,11 +69,11 @@ const Message = () => {
           pauseOnHover
           theme="dark"
         />
-        <h1 className="min-[300px]:text-[3rem] text-[4rem] md:text-[4.5rem] lg:text-[4.5rem]  xl:text-[5rem] my-2 lg:my-5 text-center md:text-left">
+        <h1 className="min-[300px]:text-[3rem] text-[4rem] md:text-[4.5rem] lg:text-[4.5rem]  xl:text-[5rem] my-2 2xl:my-5 text-center md:text-left">
           Contact Me.
         </h1>
-        <div className="text-black tracking-wider flex flex-col justify-center items-center md:items-start min-[300px]:leading-8 md:leading-10 xl:leading-10 gap-5">
-          <p className="min-[300px]:text-[1.1rem] text-[1.2rem] md:text-[1.4rem] lg:text-[1.4rem] xl:text-[1.5rem]">
+        <div className="text-black tracking-wider flex flex-col justify-center items-center md:items-start min-[300px]:leading-8 md:leading-9 xl:leading-10 gap-5 md:gap-3 xl:gap-5">
+          <p className="min-[300px]:text-[1.1rem] text-[1.2rem] md:text-[1.3rem] lg:text-[1.3rem] xl:text-[1.5rem]">
             Feel free to contact me if you are intrested in my work or want to
             have some discussions with me.
           </p>
