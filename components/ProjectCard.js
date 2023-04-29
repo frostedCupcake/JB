@@ -7,7 +7,7 @@ const ProjectCard = ({ imgUrl, text, alt }) => {
         <img
           src={imgUrl}
           alt={alt}
-          className="w-[5rem] md:w-[9rem] h-[5rem] md:h-[9rem]"
+          className="w-[5rem] md:w-[9rem] xl:w-[10rem]  h-[5rem] md:h-[9rem]"
         />
       </div>
       <p className="text-center min-[300px]:text-[.8rem] text-[1rem] md:text-[1.1rem] ">
