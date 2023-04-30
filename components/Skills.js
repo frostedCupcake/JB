@@ -12,7 +12,7 @@ const Skills = () => {
             Worked on IITH Cabsharing portal & r/IITH along my team, built using{' '}
             <span className="underline">Next js</span>,{' '}
             <span className="underline">tailwind CSS</span> and{' '}
-            <span className="underline">daisy UI</span> in Frontend with{' '}
+            <span className="underline">daisy UI</span> in Frontend &{' '}
             <span className="underline">python</span>,{' '}
             <span className="underline">Fast API</span>,{' '}
             <span className="underline">Postgresql</span> Database in backend.
@@ -22,7 +22,7 @@ const Skills = () => {
             effortless buying, selling, and trading of NFTs with multiple
             convenient payment methods, built using{' '}
             <span className="underline">Next js</span> and{' '}
-            <span className="underline">Tailwind CSS</span> in Frontend with{' '}
+            <span className="underline">Tailwind CSS</span> in Frontend &{' '}
             <span className="underline">Wagmi</span> - React Hooks for Ethereum,{' '}
             <span className="underline">Node js</span>,{' '}
             <span className="underline">REST API</span> and{' '}
