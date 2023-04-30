@@ -14,7 +14,7 @@ const Skills = () => {
             <span className="underline">tailwind CSS</span> and{' '}
             <span className="underline">daisy UI</span> in Frontend &{' '}
             <span className="underline">python</span>,{' '}
-            <span className="underline">Fast API</span>,{' '}
+            <span className="underline">Fast API</span> and{' '}
             <span className="underline">Postgresql</span> Database in backend.
           </p>
           <p>
@@ -32,7 +32,7 @@ const Skills = () => {
             <span className="underline">Freelanced</span> in building Websites
             for Toonsutra, MURL - Medical Ultrasound Research Laboratory and
             NETX - Networked Systems and Security, learnt great design skills in{' '}
-            <span className="underline">figma</span>,{' '}
+            <span className="underline">figma</span> and{' '}
             <span className="underline">manangement of time</span>.
           </p>
           <p></p>
