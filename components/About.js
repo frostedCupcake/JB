@@ -9,8 +9,8 @@ const About = () => {
         </h1>
         <div className="text-black tracking-wider flex flex-col justify-center items-center gap-5  xl:leading-10 min-[1700px]:leading-[3rem] text-justify">
           <p className="min-[300px]:text-[1.1rem] text-[1.2rem] md:text-[1.4rem] lg:text-[1.4rem] min-[1700px]:text-[1.6rem]">
-            I was born in India. I’m currently a sophomore student studying at
-            the Indian Institute of Technology Hyderabad.
+            I’m currently a sophomore student studying at the Indian Institute
+            of Technology Hyderabad.
           </p>
           <p className="min-[300px]:text-[1.1rem] text-[1.2rem] md:text-[1.4rem] lg:text-[1.4rem] min-[1700px]:text-[1.6rem]">
             I enjoy exploring my creative side by indulging in gardening,
