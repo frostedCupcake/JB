@@ -30,13 +30,13 @@ const Projects = () => {
               }
             />
 
-            <ProjectCard
+            {/* <ProjectCard
               text={'Toonsutra UI'}
               alt="Toonsutra logo"
               imgUrl={
                 'https://res.cloudinary.com/dbmw0xoar/image/upload/v1682313003/JB/toonsutra_ekt8pr.png'
               }
-            />
+            /> */}
           </div>
         </div>
       </div>

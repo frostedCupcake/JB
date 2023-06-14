@@ -30,8 +30,8 @@ const Skills = () => {
           </p>
           <p>
             <span className="underline">Freelanced</span> in building Websites
-            for Toonsutra, MURL - Medical Ultrasound Research Laboratory and
-            NETX - Networked Systems and Security, learnt great design skills in{' '}
+            for MURL - Medical Ultrasound Research Laboratory and NETX -
+            Networked Systems and Security, learnt great design skills in{' '}
             <span className="underline">figma</span> and{' '}
             <span className="underline">manangement of time</span>.
           </p>
